@@ -1,7 +1,7 @@
 # Title: Chicago Food Inspections
 
 # Abstract
-*A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
+*A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?*
 
 Food safety has been a question to be asked when eating out even before the taste of the restaruant. So how clean is your food when you are eating out in Chiago? Based on the dataset released by the City of Chicago, 
 
@@ -11,7 +11,7 @@ goals:
 dataset: 
 
 # Research questions
-*A list of research questions you would like to address during the project.
+*A list of research questions you would like to address during the project.*
 
 **Basic Questions:**
 1. Is there a seasonal pattern for food hygiene of food establishments in Chicago? Are restaraunts generally cleaner in the winter than in the summer?

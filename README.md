@@ -10,6 +10,18 @@ idea:
 goals: 
 dataset: 
 
+
+DataStory:
+The business know-how for opening a restaruant in Chicago
+
+Top advices for you to open a restaruant in Chicago, IL:
+1. Market Niche. How much are your courses?
+2. Cuisine. Chinese cuisine or Mexician?
+3. Region. Which region do your target customers reside? Which cuisine is the most popular in that region?
+4. Hygeine. Open an restaruant in a cleaner region.
+5. 
+
+
 # Research questions
 *A list of research questions you would like to address during the project.*
 

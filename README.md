@@ -16,7 +16,7 @@ dataset:
 **Basic Questions:**
 
 1. Is there a seasonal pattern for inspection results of food establishments in Chicago? How about a a regional pattern?
-3. Which facility type is the best? What is the ranking of the types according to cleaniness?
+3. Which facility type is the best? What is the ranking of facility types according to cleaniness?
 
 **Community-related Questions:**
 

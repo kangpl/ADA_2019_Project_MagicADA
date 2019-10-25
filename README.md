@@ -22,7 +22,7 @@ dataset:
 4. For each zip-based region, is there a relationship between the cleaniness of food establishments and the quality of the region (average income, living cost, crime rate and etc.) ? Are wealthy regions overall cleaner than underdeveloped regions?
 5. 9年内不同区域的卫生情况走势
 
-**Causation-related Questions:**
+**Causation-related Questions:**  
 6. 具体的卫生情况的那些comments的分析
 7. For each violation, group by 'pass, pass with conditions and fail', which type of violation is the most incorrigible? Which are most easily-correctable? 
 8. Is there a correaltion between the overall cleaniness condition of all restaruants and any health-related events happend in Chicago?

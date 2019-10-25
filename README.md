@@ -18,7 +18,7 @@ dataset:
 2. Is there a regional pattern for food hygiene? 
 3. Which type of food establishments is the best? What is the ranking of the types according to cleaniness?
 
-**Community-related Questions:**
+**Community-related Questions:**      
 4. For each zip-based region, is there a relationship between the cleaniness of food establishments and the quality of the region (average income, living cost, crime rate and etc.) ? Are wealthy regions overall cleaner than underdeveloped regions?
 5. 9年内不同区域的卫生情况走势
 

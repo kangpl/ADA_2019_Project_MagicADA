@@ -14,6 +14,7 @@ dataset:
 *A list of research questions you would like to address during the project.*
 
 **Basic Questions:**
+
 1. Is there a seasonal pattern for food hygiene of food establishments in Chicago? Are restaraunts generally cleaner in the winter than in the summer?
 2. Is there a regional pattern for food hygiene? 
 3. Which type of food establishments is the best? What is the ranking of the types according to cleaniness?
@@ -30,7 +31,7 @@ dataset:
 8. Is there a correaltion between the overall cleaniness condition of all restaruants and any health-related events happend in Chicago?
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+*List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
 
 **Chicago Food Inspections**
 From https://www.kaggle.com/chicago/chicago-food-inspections

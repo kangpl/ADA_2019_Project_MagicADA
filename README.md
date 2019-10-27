@@ -1,6 +1,6 @@
 # The Definitive Guide for Opening a Restaurant in Chicago
 
-*-- Insights from Dataset "Chicago Food Inspections"*
+*-- Insights from Dataset "Chicago Food Inspections"*\
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract

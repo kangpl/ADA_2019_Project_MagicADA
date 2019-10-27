@@ -28,18 +28,18 @@ Top advices for you to open a restaruant in Chicago, IL:
 **Basic Questions:**
 
 1. Is there a seasonal pattern for inspection results of food establishments in Chicago? How about a a regional pattern?
-3. Which facility type is the best? What is the ranking of facility types according to cleaniness?
+2. Which facility type is the best? What is the ranking of facility types according to cleaniness?
 
 **Community-related Questions:**
 
-4. Is there a relationship between the cleaniness of food establishments and the quality of the zip-based region (eg. average income, living cost, crime rate and etc.) ? Are wealthy regions overall cleaner than underdeveloped regions?
-5. What tendency does the inspection result of each region exhibit during the recorded nine years?
+3. Is there a relationship between the cleaniness of food establishments and the quality of the zip-based region (eg. average income, living cost, crime rate and etc.) ? Are wealthy regions overall cleaner than underdeveloped regions?
+4. What tendency does the inspection result of each region exhibit during the recorded nine years?
 
 **Inspection-comment-related Questions:**
 
-6. 具体的卫生情况的那些comments的分析
-7. For each violation, group by 'pass, pass with conditions and fail', which type of violation is the most incorrigible? Which are most easily-correctable? 
-8. Is there a correaltion between the overall cleaniness condition of all restaruants and any health-related events happend in Chicago?
+5. 具体的卫生情况的那些comments的分析
+6. For each violation, group by 'pass, pass with conditions and fail', which type of violation is the most incorrigible? Which are most easily-correctable? 
+7. Is there a correaltion between the overall cleaniness condition of all restaruants and any health-related events happend in Chicago?
 
 # Dataset
 *List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
@@ -56,6 +56,12 @@ The schema of the dataset contains relevant information such as type (categorica
 **Qulaity of zip-based region**
 https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000
 Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health 
+
+**Chicago restaurant information in yelp**
+https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL
+We grabbed Chicago restaurant data from the restaurant review website yelp. The data mainly includes the categories, rating, address, price_range of each restaurant.
+
+
 
 # A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.

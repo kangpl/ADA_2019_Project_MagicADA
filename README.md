@@ -1,5 +1,5 @@
 # The Definitive Guide for Opening a Restaurant in Chicago
-## *Insights from 'Chicago Food Inspections'*
+## * -- Insights from Dataset "Chicago Food Inspections"*
 
 # Abstract
 *A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?*

@@ -1,6 +1,7 @@
 # The Definitive Guide for Opening a Restaurant in Chicago
 
 *-- Insights from Dataset "Chicago Food Inspections"*
+Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract
 *A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?*

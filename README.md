@@ -48,7 +48,7 @@ Top advices for you to open a restaruant in Chicago, IL:
 
 **Chicago Food Inspections**
 <br>
-From https://www.kaggle.com/chicago/chicago-food-inspections
+From *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
 This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure. 
 <br>
@@ -60,13 +60,13 @@ The schema of the dataset contains relevant information such as type (categorica
 
 **Qulaity of zip-based region**
 <br>
-From https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000
+From *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
 <br>
 Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health 
 
 **Chicago restaurant information in yelp**
 <br>
-From https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL
+From *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>
 We scraped Chicago restaurant data from the restaurant review website yelp. The data mainly includes the categories, rating, address, price_range of each restaurant.
 

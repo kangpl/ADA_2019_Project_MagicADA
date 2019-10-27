@@ -55,6 +55,7 @@ This information is derived from inspections of restaurants and other food estab
 The schema of the dataset contains relevant information such as type (categorical), risk level (categorical), zip code (categorical), 
 <br>
 *Data size: 230MB
+<br>
 *Format: .CSV
 
 **Qulaity of zip-based region**

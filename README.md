@@ -77,19 +77,11 @@ Add here a sketch of your planning for the next project milestone.
 
 **01.11.2017**: 
 
-**03.11.2017**: 
-
 **08.11.2017**: 
-
-**10.11.2017**: 
 
 **15.11.2017**: 
 
-**17.11.2017**: 
-
 **22.11.2017**: 
-
-**24.11.2017**: 
 
 
 # Questions for TAa

@@ -54,9 +54,9 @@ This information is derived from inspections of restaurants and other food estab
 <br>
 The schema of the dataset contains relevant information such as type (categorical), risk level (categorical), zip code (categorical), 
 <br>
-*Data size: 230MB
+*Data size: 230MB*
 <br>
-*Format: .CSV
+*Format: .CSV*
 
 **Qulaity of zip-based region**
 <br>
@@ -73,7 +73,7 @@ We scraped Chicago restaurant data from the restaurant review website yelp. The 
 
 
 # A list of internal milestones up until project milestone 2
-*Add here a sketch of your planning for the next project milestone.
+*Add here a sketch of your planning for the next project milestone.*
 
 **01.11.2017**: 
 
@@ -85,6 +85,6 @@ We scraped Chicago restaurant data from the restaurant review website yelp. The 
 
 
 # Questions for TAa
-*Add here some questions you have for us, in general or project-specific.
+*Add here some questions you have for us, in general or project-specific.*
 
 If we don’t just focus on food safety, does this deviate from the theme of our database?

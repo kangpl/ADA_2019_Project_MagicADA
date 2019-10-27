@@ -1,6 +1,7 @@
 # The Definitive Guide for Opening a Restaurant in Chicago
 
-*-- Insights from Dataset "Chicago Food Inspections"*\
+***-- Insights from Dataset "Chicago Food Inspections"***\
+
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract
@@ -13,7 +14,7 @@ idea:
 <br>
 goals: 
 <br>
-dataset: 
+dataset: The main datasets used in the project are `Chicago Food Inspection`, ``
 
 
 DataStory:
@@ -65,13 +66,13 @@ The schema of the dataset contains relevant information such as type (categorica
 <br>
 *Format: .CSV*
 
-**Qulaity of zip-based region**
+**Qulaity of Zip-Based Region**
 <br>
 From *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
 <br>
 Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health.
 
-**Chicago restaurant information in yelp**
+**Chicago Restaurant Information in Yelp**
 <br>
 From *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>

@@ -1,6 +1,6 @@
 # The Definitive Guide for Opening a Restaurant in Chicago
 
-***-- Insights from Dataset "Chicago Food Inspections"***\
+***-- Insights from Dataset "Chicago Food Inspections"***
 
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
@@ -10,11 +10,14 @@ Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 Food safety has been a question to be asked when eating out even before the taste of the restaruant. So how clean is your food when you are eating out in Chiago? Based on the dataset released by the City of Chicago, 
 
 
-idea: 
-<br>
+idea:
+
+What factors do succesful restaruants share in coomon? What factors lead
 goals: 
 <br>
-dataset: The main datasets used in the project are `Chicago Food Inspection`, ``
+dataset: The main datasets used in the project are `Chicago Food Inspection`, `Community Qulaity of Zip-Based Region`, `Chicago Restaurant Information in Yelp`. 
+
+
 
 
 DataStory:
@@ -22,7 +25,7 @@ DataStory:
 The business know-how for opening a restaruant in Chicago
 
 Top advices for you to open a restaruant in Chicago, IL:
-1. Market Niche. How much are your courses?
+1. Market Niche. How expensive are your courses?
 2. Cuisine. Chinese cuisine or Mexician?
 3. Region. Which region do your target customers reside? Which cuisine is the most popular in that region?
 4. Hygeine. Open an restaruant in a cleaner region.
@@ -66,7 +69,7 @@ The schema of the dataset contains relevant information such as type (categorica
 <br>
 *Format: .CSV*
 
-**Qulaity of Zip-Based Region**
+**Community Qulaity of Zip-Based Region**
 <br>
 From *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
 <br>

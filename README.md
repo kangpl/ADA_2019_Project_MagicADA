@@ -19,7 +19,6 @@ Top advices for you to open a restaruant in Chicago, IL:
 2. Cuisine. Chinese cuisine or Mexician?
 3. Region. Which region do your target customers reside? Which cuisine is the most popular in that region?
 4. Hygeine. Open an restaruant in a cleaner region.
-5. 
 
 
 # Research questions
@@ -45,7 +44,9 @@ Top advices for you to open a restaruant in Chicago, IL:
 *List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
 
 **Chicago Food Inspections**
+
 From https://www.kaggle.com/chicago/chicago-food-inspections
+
 This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure. 
 
 The schema of the dataset contains relevant information such as type (categorical), risk level (categorical), zip code (categorical), 
@@ -54,11 +55,15 @@ The schema of the dataset contains relevant information such as type (categorica
 *Format: .CSV
 
 **Qulaity of zip-based region**
-https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000
+
+From https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000
+
 Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health 
 
 **Chicago restaurant information in yelp**
-https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL
+
+From https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL
+
 We grabbed Chicago restaurant data from the restaurant review website yelp. The data mainly includes the categories, rating, address, price_range of each restaurant.
 
 

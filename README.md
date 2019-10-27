@@ -39,9 +39,13 @@ Top advices for you to open a restaruant in Chicago, IL:
 
 **Inspection-comment-related Questions:**
 
-5. 具体的卫生情况的那些comments的分析
+5. Analyze the content of different types of Violations
 6. For each violation, group by 'pass, pass with conditions and fail', which type of violation is the most incorrigible? Which are most easily-correctable? 
 7. Is there a correaltion between the overall cleaniness condition of all restaruants and any health-related events happend in Chicago?
+
+**If you want to invest in a restaurant in Chicago:**
+For different grades restaurants, which factors are you needing to consider(categories, location, health and etc.)? Which health problems that are difficult to improve, you should try to avoid.
+
 
 # Dataset
 *List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
@@ -62,7 +66,7 @@ The schema of the dataset contains relevant information such as type (categorica
 <br>
 From *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
 <br>
-Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health 
+Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health.
 
 **Chicago restaurant information in yelp**
 <br>
@@ -76,15 +80,21 @@ We scraped Chicago restaurant data from the restaurant review website yelp. The 
 *Add here a sketch of your planning for the next project milestone.*
 
 **01.11.2017**: 
+Clean up the downloaded dataset and scraped dataset.
 
 **08.11.2017**: 
+Merge the "Chicago dataset" and the "Yelp dataset" by feature "Name" and "Address".
+Join the "Chicago + Yelp dataset" and the "Region dataset" by feature "Zip".
+Explanatory data analysis in new dataset
 
 **15.11.2017**: 
+Solve Basic Questions in new dataset, and discuss the results.
 
 **22.11.2017**: 
-
+Solve Community-related Questions in new dataset, and discuss the results.
+Discuss more detailed plan for future work based on the results of Basic Questions and Community-related Questions
 
 # Questions for TAa
 *Add here some questions you have for us, in general or project-specific.*
 
-If we don’t just focus on food safety, does this deviate from the theme of our database?
+We don’t just focus on food safety, does this deviate from the theme of our database?

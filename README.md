@@ -83,25 +83,25 @@ We scraped Chicago restaurant data from the restaurant review website yelp. The 
 
 
 
-# A list of internal milestones up until project milestone 2
-*Add here a sketch of your planning for the next project milestone.*
+# A list of internal milestones up until project milestone 2   
+We set up internal milestones for each week, and the group members will meet every Sunday night.  
+**03.11.2017**:  
+- Scrape Chicago restuarant information from Yelp to construct our own dataset.  
+- Clean both the `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection` datasets.  
+- Find the ways to Merge the `Chicago Food Inspection` dataset into `Chicago Restaurant Information in Yelp` dataset.  
 
-**01.11.2017**: 
-Clean up the downloaded dataset and scraped dataset.
+**10.11.2017**:  
+- Analysis the newly merged dataset from different aspects to get preliminary findings, mostly based on the research questions listed above.  
 
-**08.11.2017**: 
-Merge the "Chicago dataset" and the "Yelp dataset" by feature "Name" and "Address".
-Join the "Chicago + Yelp dataset" and the "Region dataset" by feature "Zip".
-Explanatory data analysis in new dataset
+**17.11.2017**:  
+- Discuss the findings between teammates and explore the dataset further.  
+- Explore ways to visualize our data.  
 
-**15.11.2017**: 
-Solve Basic Questions in new dataset, and discuss the results.
-
-**22.11.2017**: 
-Solve Community-related Questions in new dataset, and discuss the results.
-Discuss more detailed plan for future work based on the results of Basic Questions and Community-related Questions
+**24.11.2017**: 
+- Have a nice visualisation and first results in notebook.  
+- Discuss more detailed plan for future work based on the insights we get for the dataset.  
 
 # Questions for TAa
-*Add here some questions you have for us, in general or project-specific.*
-
-We don’t just focus on food safety, does this deviate from the theme of our database?
+- The number of Chicago restuarants we scraped from yelp is around 6500, is the size of the dataset large enough for us to make a project? 
+- We will use the `Chicago Restaurant Information in Yelp` as the main dataset(scraped by ourself) and `Chicago Food Inspection` as an auxiliary dataset(provided dataset), is it ok for us to arrange datasets like this? 
+- When we try to merge the `Chicago Food Inspection` dataset into `Chicago Restaurant Information in Yelp` dataset using restuarant name and part of the address, we found though sometimes they are the same restaurants, but the name and address will have silghtly difference in two datasets (for example, subway and subway restuarant, Av and Avenue). How can we deal with this problem? 

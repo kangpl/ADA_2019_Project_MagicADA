@@ -7,6 +7,8 @@ Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 # Abstract
 *A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?*
 
+
+All successful businesses are alike; each unsuccessful business is unsuccessful in its own way. So when we come to the case of a restaurant, can we find the similarities 
 Food safety has been a question to be asked when eating out even before the taste of the restaruant. So how clean is your food when you are eating out in Chiago? Based on the dataset released by the City of Chicago, 
 
 

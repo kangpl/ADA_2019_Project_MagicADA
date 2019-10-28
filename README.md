@@ -36,7 +36,7 @@ The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago F
 Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>
 From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `yelp.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
-<br>
+
 *Data size: 1.2MB*
 <br>
 *Format: .CSV*
@@ -47,7 +47,7 @@ Source: *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
 This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure.\
 This dataset contains information about each inspection, such as inspection date, inspection type, inpsection result, detailed comment for results and etc. Additionally, each inspection also records the information about the food establishment, such as the establishment's name, address, what type of food business it is doing and etc. We would like to join this dataset of the Yelp dataset by restaurant to observe the relationship between the hygiene of a retaurant and its rating.
-<br>
+
 *Data size: 230MB*
 <br>
 *Format: .CSV*

@@ -66,24 +66,25 @@ We aim to deduce from this dataset the quality of each region and attempt to cor
 
 
 # A list of internal milestones up until project milestone 2   
-We set up internal milestones for each week, and the group members will meet every Sunday night.  
+We set up internal milestones for each week, and group members will meet every Sunday night to update and split the work.
+
 **03.11.2017**:  
-- Scrape Chicago restuarant information from Yelp to construct our own dataset.  
 - Clean both the `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection` datasets.  
-- Find the ways to Merge the `Chicago Food Inspection` dataset into `Chicago Restaurant Information in Yelp` dataset.  
+- Find the best way to join the `Chicago Food Inspection` dataset with `Chicago Restaurant Information in Yelp` dataset.  
 
 **10.11.2017**:  
-- Analysis the newly merged dataset from different aspects to get preliminary findings, mostly based on the research questions listed above.  
+- Analyse the newly merged dataset from different aspects to get preliminary findings, mostly based on the research questions listed above.  
+- Explore ways to visualize the findings. 
 
 **17.11.2017**:  
 - Discuss the findings between teammates and explore the dataset further.  
-- Explore ways to visualize our data.  
+- Build a prediction model for a new restaurant given some basic information and outputs its likely business situation.
 
 **24.11.2017**: 
 - Have a nice visualisation and first results in notebook.  
 - Discuss more detailed plan for future work based on the insights we get for the dataset.  
 
 # Questions for TAa
-- The number of Chicago restuarants we scraped from yelp is around 7600, is the size of the dataset large enough for us to make a project? 
+- The number of Chicago restuarants we scraped from yelp is around 6500, is the size of the dataset large enough for us to make a project? 
 - We will use the `Chicago Restaurant Information in Yelp` as the main dataset(scraped by ourself) and `Chicago Food Inspection` as an auxiliary dataset(provided dataset), is it ok for us to arrange datasets like this? 
 - When we try to merge the `Chicago Food Inspection` dataset into `Chicago Restaurant Information in Yelp` dataset using restuarant name and part of the address, we found though sometimes they are the same restaurants, but the name and address will have silghtly difference in two datasets (for example, subway and subway restuarant, Av and Avenue). How can we deal with this problem? 

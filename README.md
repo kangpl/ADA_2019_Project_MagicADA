@@ -1,6 +1,6 @@
 # The Definitive Guide for Opening a Restaurant in Chicago
 
-***-- Insights from Dataset "Chicago Food Inspections"***
+***-- Insights from Dataset "Chicago Food Inspections" and beyond***
 
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
@@ -57,11 +57,23 @@ For different grades restaurants, which factors are you needing to consider(cate
 # Dataset
 *List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
 
+**Restaurant Information in Chicago from Yelp**
+<br>
+Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
+<br>
+From Yelp, the well-know restaurant (and more) review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `ylep.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago.\
+This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. 
+
+*Data size: 1.2MB*
+<br>
+*Format: .CSV*
+
 **Chicago Food Inspections**
 <br>
 From *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
-This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure. 
+This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure.\
+This dataset contains information about each inspection, such as inspection date, inspection type, inpsection result, detailed comment for results and etc. Additionally, each inspection also records the information about the food establishment, such as the establishment's name, address, what type of food business it is doing and etc. 
 <br>
 The schema of the dataset contains relevant information such as type (categorical), risk level (categorical), zip code (categorical), 
 <br>
@@ -73,14 +85,13 @@ The schema of the dataset contains relevant information such as type (categorica
 <br>
 From *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
 <br>
-Here we established a self-constructed dataset, where the primary key is the zip code and we scrape data from the website above to find the crime rate, income status and health.
+56 zip codes
+This small dataset contains information about the 56 zip-based region in Chicago. For each zip-based region, it includes the cost of living in the region, population, crime rate and etc. 
+We aim to deduce from this dataset the quality of each region and attempt to correlate this region-based pattern with the region-based pattern of the quality of restaurants. 
 
-**Chicago Restaurant Information in Yelp**
+*Data size: 56 pieces of information*
 <br>
-From *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
-<br>
-We scraped Chicago restaurant data from the restaurant review website yelp. The data mainly includes the categories, rating, address, price_range of each restaurant.
-
+*Format: .CSV*
 
 
 # A list of internal milestones up until project milestone 2   

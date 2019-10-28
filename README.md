@@ -36,7 +36,7 @@ The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago F
 Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>
 From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `yelp.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
-
+<br>
 *Data size: 1.2MB*
 <br>
 *Format: .CSV*

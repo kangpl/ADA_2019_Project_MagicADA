@@ -13,30 +13,21 @@ The main datasets used in the project are `Chicago Restaurant Information in Yel
 
 
 # Research questions
-*A list of research questions you would like to address during the project.*
 
-**Basic Questions:**
+1. Is there a clear correlation between the average rating of a restaurant with its location, cuisine type, average price, hygiene status (inspection result) and etc.? If yes, to what extent does it affect the rating?
 
-1. Is there a seasonal pattern for inspection results of food establishments in Chicago? How about a a regional pattern?
-2. Which facility type is the best? What is the ranking of facility types according to cleaniness?
+2. Is there a relationship between the cleaniness of a restaurant with its zip-based region, cuisine type, average price and etc.?
 
-**Community-related Questions:**
+3. Does the quality of a zip-based region (eg. average income, living cost, crime rate and etc.) influence the restaurants' business situation in that region? Do wealthy regions usually outperform underdeveloped regions?
 
-3. Is there a relationship between the cleaniness of food establishments and the quality of the zip-based region (eg. average income, living cost, crime rate and etc.) ? Are wealthy regions overall cleaner than underdeveloped regions?
-4. What tendency does the inspection result of each region exhibit during the recorded nine years?
+4. For each violation in an inspection, group by 'pass', 'pass with conditions' and 'fail', which type of violation is the most incorrigible? Which type is easily-correctable? 
 
-**Inspection-comment-related Questions:**
+5. What common behaviour do well-rated restaurant manifest during the inspections? Is there a fatal violation that potentially leads to the bankrupt of a restaurant?
 
-5. Analyze the content of different types of Violations
-6. For each violation, group by 'pass, pass with conditions and fail', which type of violation is the most incorrigible? Which are most easily-correctable? 
-7. Is there a correaltion between the overall cleaniness condition of all restaruants and any health-related events happend in Chicago?
-
-**If you want to invest in a restaurant in Chicago:**
-For different grades restaurants, which factors are you needing to consider(categories, location, health and etc.)? Which health problems that are difficult to improve, you should try to avoid.
+6. Among all the facility types, which facility type behaves the best with respect to the hygiene inspection? Is there any wisdom that can be concluded and generalised to restaurants?
 
 
 # Dataset
-*List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
 
 The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection`. We also combine data from `Community Qulaity of Zip-Based Region`.
 
@@ -44,7 +35,7 @@ The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago F
 <br>
 Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>
-From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `ylep.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
+From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `yelp.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
 
 *Data size: 1.2MB*
 <br>
@@ -55,7 +46,7 @@ From Yelp, the well-know review webiste, basic information of each restaurant in
 Source: *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
 This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure.\
-This dataset contains information about each inspection, such as inspection date, inspection type, inpsection result, detailed comment for results and etc. Additionally, each inspection also records the information about the food establishment, such as the establishment's name, address, what type of food business it is doing and etc. We would like to join this dataset of the Yelp dataset by restaurant to observe the relationship between the hygiene of a retaurant and its rating.  
+This dataset contains information about each inspection, such as inspection date, inspection type, inpsection result, detailed comment for results and etc. Additionally, each inspection also records the information about the food establishment, such as the establishment's name, address, what type of food business it is doing and etc. We would like to join this dataset of the Yelp dataset by restaurant to observe the relationship between the hygiene of a retaurant and its rating.
 <br>
 *Data size: 230MB*
 <br>

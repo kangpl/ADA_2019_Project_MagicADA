@@ -31,7 +31,7 @@ The main datasets used in the project are `Chicago Restaurant Information in Yel
 
 The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection`. We also combine data from `Community Qulaity of Zip-Based Region`.
 
-**Restaurant Information in Chicago from Yelp**
+**Chicago Restaurant Information in Yelp**
 <br>
 Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>

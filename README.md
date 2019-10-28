@@ -1,36 +1,15 @@
-# The Definitive Guide for Opening a Restaurant in Chicago
+# Guidebook for Opening a Restaurant in Chicago
 
 ***-- Insights from Dataset "Chicago Food Inspections" and beyond***
 
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract
-*A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?*
+All successful businesses are alike; each unsuccessful business is unsuccessful in its own way. When it comes to the case of a restaurant, an unsuccessful one must have a deficiency of one or more critical factors, and a successful one on the contrary avoids every possible deficiency. That being so, can we find a universal pattern of critical factors that makes a successful restaurant? 
 
+This project aims to explore the possible factors that affect the business of a restaurant in Chicago, IL based on the data collected from Chicago Department of Public Health, Yelp.com and regional information of each zip-based region. We would like to conclude insights for opening a new restaruant in Chicago by weighing factors such as its market positioning, cuisine type, shop front location, and especially give advices for restaurant hygiene and food safety. Ideally we can find a model to give a prediction for a new restaurant given these factors. 
 
-All successful businesses are alike; each unsuccessful business is unsuccessful in its own way. So when we come to the case of a restaurant, can we find the similarities 
-Food safety has been a question to be asked when eating out even before the taste of the restaruant. So how clean is your food when you are eating out in Chiago? Based on the dataset released by the City of Chicago, 
-
-
-idea:
-
-What factors do succesful restaruants share in coomon? What factors lead
-goals: 
-<br>
-dataset: The main datasets used in the project are `Chicago Food Inspection`, `Community Qulaity of Zip-Based Region`, `Chicago Restaurant Information in Yelp`. 
-
-
-
-
-DataStory:
-<br>
-The business know-how for opening a restaruant in Chicago
-
-Top advices for you to open a restaruant in Chicago, IL:
-1. Market Niche. How expensive are your courses?
-2. Cuisine. Chinese cuisine or Mexician?
-3. Region. Which region do your target customers reside? Which cuisine is the most popular in that region?
-4. Hygeine. Open an restaruant in a cleaner region.
+The main datasets used in the project are `Chicago Restaurant Information in Yelp`, `Chicago Food Inspection` and `Community Qulaity of Zip-Based Region`. 
 
 
 # Research questions
@@ -59,12 +38,13 @@ For different grades restaurants, which factors are you needing to consider(cate
 # Dataset
 *List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.*
 
+The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection`. We also combine data from `Community Qulaity of Zip-Based Region`.
+
 **Restaurant Information in Chicago from Yelp**
 <br>
 Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>
-From Yelp, the well-know restaurant (and more) review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `ylep.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago.\
-This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. 
+From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `ylep.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
 
 *Data size: 1.2MB*
 <br>
@@ -72,12 +52,10 @@ This dataset includes the restaurant name, address in Chicago, cuisine category,
 
 **Chicago Food Inspections**
 <br>
-From *https://www.kaggle.com/chicago/chicago-food-inspections*
+Source: *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
 This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health’s Food Protection Program using a standardized procedure.\
-This dataset contains information about each inspection, such as inspection date, inspection type, inpsection result, detailed comment for results and etc. Additionally, each inspection also records the information about the food establishment, such as the establishment's name, address, what type of food business it is doing and etc. 
-<br>
-The schema of the dataset contains relevant information such as type (categorical), risk level (categorical), zip code (categorical), 
+This dataset contains information about each inspection, such as inspection date, inspection type, inpsection result, detailed comment for results and etc. Additionally, each inspection also records the information about the food establishment, such as the establishment's name, address, what type of food business it is doing and etc. We would like to join this dataset of the Yelp dataset by restaurant to observe the relationship between the hygiene of a retaurant and its rating.  
 <br>
 *Data size: 230MB*
 <br>
@@ -85,7 +63,7 @@ The schema of the dataset contains relevant information such as type (categorica
 
 **Community Qulaity of Zip-Based Region**
 <br>
-From *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
+Source: *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
 <br>
 56 zip codes
 This small dataset contains information about the 56 zip-based region in Chicago. For each zip-based region, it includes the cost of living in the region, population, crime rate and etc. 

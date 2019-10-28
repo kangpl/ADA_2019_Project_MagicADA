@@ -84,6 +84,6 @@ We set up internal milestones for each week, and the group members will meet eve
 - Discuss more detailed plan for future work based on the insights we get for the dataset.  
 
 # Questions for TAa
-- The number of Chicago restuarants we scraped from yelp is around 6500, is the size of the dataset large enough for us to make a project? 
+- The number of Chicago restuarants we scraped from yelp is around 7600, is the size of the dataset large enough for us to make a project? 
 - We will use the `Chicago Restaurant Information in Yelp` as the main dataset(scraped by ourself) and `Chicago Food Inspection` as an auxiliary dataset(provided dataset), is it ok for us to arrange datasets like this? 
 - When we try to merge the `Chicago Food Inspection` dataset into `Chicago Restaurant Information in Yelp` dataset using restuarant name and part of the address, we found though sometimes they are the same restaurants, but the name and address will have silghtly difference in two datasets (for example, subway and subway restuarant, Av and Avenue). How can we deal with this problem? 

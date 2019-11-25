@@ -8,7 +8,7 @@ Food hygiene has been a buzz word of the public and the society. How clean are t
 
 This project aims to explore the possible factors that affect the cleaniness of a food establishment in Chicago, IL based on the data collected from Chicago Department of Public Health. We would like to find insights between food establishment cleaniness and time, location, risk level category and facility type. Furthermore, we analyse the violation comment of the inspector to find the relationship between the underlying banes and other factors (inspection type, facility type). Finally, we use restaurant rating, price and etc. collected from Yelp.com to get wider perspectives for analysing cleaniness.
 
-The main datasets used in the project are `Chicago Restaurant Information in Yelp`, `Chicago Food Inspection` and `Community Qulaity of Zip-Based Region`.
+The main datasets used in the project are `Chicago Food Inspection`, `Chicago Restaurant Information in Yelp` and `Community Qulaity of Zip-Based Region`.
 
 
 # Research questions

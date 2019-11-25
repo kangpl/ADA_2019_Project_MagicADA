@@ -1,3 +1,5 @@
+### For Milestone 2: Our work is saved in project.ipynb.
+
 # Insights from Chicago Food Inspections
 
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu

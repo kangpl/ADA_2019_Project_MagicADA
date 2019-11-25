@@ -1,30 +1,31 @@
-# Guidebook for Opening a Restaurant in Chicago
-
-***-- Insights from Dataset "Chicago Food Inspections" and beyond***
+# Insights from Chicago Food Inspections
 
 Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract
-All successful businesses are alike; each unsuccessful business is unsuccessful in its own way. When it comes to the case of a restaurant, an unsuccessful one must have a deficiency of one or more critical factors, and a successful one on the contrary avoids every possible deficiency. That being so, can we find a universal pattern of critical factors that makes a successful restaurant? 
 
-This project aims to explore the possible factors that affect the business of a restaurant in Chicago, IL based on the data collected from Chicago Department of Public Health, Yelp.com and regional information of each zip-based region. We would like to conclude insights for opening a new restaruant in Chicago by weighing factors such as its market positioning, cuisine type, shop front location, and especially give advices for restaurant hygiene and food safety. Ideally we can find a model to give a prediction for a new restaurant given these factors. 
+Food hygiene has been a buzz word of the public and the society. How clean are the resaurants you are eating and what are the possible factors that are associated with food hygiene? 
 
-The main datasets used in the project are `Chicago Restaurant Information in Yelp`, `Chicago Food Inspection` and `Community Qulaity of Zip-Based Region`. 
+This project aims to explore the possible factors that affect the cleaniness of a food establishment in Chicago, IL based on the data collected from Chicago Department of Public Health. We would like to find insights between food establishment cleaniness and time, location, risk level category and facility type. Furthermore, we analyse the violation comment of the inspector to find the relationship between the underlying banes and other factors (inspection type, facility type). Finally, we use restaurant rating, price and etc. collected from Yelp.com to get wider perspectives for analysing cleaniness.
+
+The main datasets used in the project are `Chicago Restaurant Information in Yelp`, `Chicago Food Inspection` and `Community Qulaity of Zip-Based Region`.
 
 
 # Research questions
 
-1. Is there a clear correlation between the average rating of a restaurant with its location, cuisine type, average price, hygiene status (inspection result) and etc.? If yes, to what extent does it affect the rating?
+### A. Inspection-Related Questions:
+1. Time: Is there a seasonal pattern for inspection results of food establishments in Chicago? How about a a yearly pattern? What tendency does the inspection result of each region exhibit during the recorded nine years?
+2. Region: Is there a relationship between the cleaniness of food establishments and the quality of the zip-based region? What is the distribution of cleaniness w.r.t. zips?
+3. Risk Level: How does the risk level of a food establishment influence its cleaniness?
+4. Facility Type: Which facility type is the cleaniest? What is the ranking of facility types according to cleaniness?
 
-2. Is there a relationship between the cleaniness of a restaurant with its zip-based region, cuisine type, average price and etc.?
+### B. Violation-Related Questions:
+5. Inspection Type: What are the most frequent violations associated with a specific inspection type? How can we classify inspection types according to it?
+6. Facility Type: What are the most frequent violations associated with a specific facility type? How can we classify the facility types? 
+7. Regulation Rules: What are the regulation rules that have the highest occurence percentage and recurrence percentage? What are the high frequency key words associated with a regulation rule? How does its word cloud look like?
 
-3. Does the quality of a zip-based region (eg. average income, living cost, crime rate and etc.) influence the restaurants' business situation in that region? Do wealthy regions usually outperform underdeveloped regions?
-
-4. For each violation in an inspection, group by 'pass', 'pass with conditions' and 'fail', which type of violation is the most incorrigible? Which type is easily-correctable? 
-
-5. What common behaviour do well-rated restaurant manifest during the inspections? Is there a fatal violation that potentially leads to the bankrupt of a restaurant?
-
-6. Among all the facility types, which facility type behaves the best with respect to the hygiene inspection? Is there any wisdom that can be concluded and generalised to restaurants?
+### C. Combine with Yelp:
+8. Is there a clear correlation between the cleaniness of a restaurant with its average rating, cuisine type, average price and etc.? If yes, to what extent does it affect the cleaniness?
 
 
 # Dataset

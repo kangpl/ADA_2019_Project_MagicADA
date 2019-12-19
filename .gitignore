@@ -2,7 +2,8 @@
 # Created by https://www.gitignore.io/api/macos,jekyll,windows,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=macos,jekyll,windows,jupyternotebooks
 ### dataset ignore ###
-chicago-food-inspections/
+data_raw/
+data_cleaned/
 
 ### Jekyll ###
 _site/

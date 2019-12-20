@@ -86,7 +86,7 @@ Website: https://holykhala.github.io/
 Please use Safari for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
 
 # Contribution 
-Wan-tzu: Writing up the data story, plotting graphs for data analysis; 
-Peilin: Data cleaning, preliminary data analysis; 
-Futong: Anlysing plotted graphs, exploratory data analysis;
+Wan-tzu: Writing up the data story, plotting graphs for data analysis;\
+Peilin: Data cleaning, preliminary data analysis;\
+Futong: Anlysing plotted graphs, exploratory data analysis;\
 Zhenyu: Data collection, website of data stroy construction.

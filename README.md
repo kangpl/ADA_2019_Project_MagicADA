@@ -87,4 +87,4 @@ From Yelp, the well-know review webiste, basic information of each restaurant in
 Wan-Tzu: Writing up the data story, plotting graphs for data analysis;\
 Peilin: Data cleaning, preliminary data analysis;\
 Futong: Anlysing plotted graphs, exploratory data analysis;\
-Zhenyu: Data collection, website of data story construction, preparing for presentation.
+Zhenyu: Data collection, website of data story construction.

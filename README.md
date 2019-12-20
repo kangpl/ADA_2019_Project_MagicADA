@@ -2,6 +2,12 @@
 
 Team Members: Peilin Kang, Wan-Tzu Huang, Futong Liu, Zhenyu Zhu
 
+# Datastory
+
+Website: https://holykhala.github.io/
+
+Please use Safari for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
+
 # Abstract
 
 Do you live in Chicago currently? Have you ever wondered whether the place you dine out with a friend on Friday night is really clean and conform the hygienic standards? Or are you planning a visit to Chicago this coming holiday and wonder if it is really safe to try out the local cuisine at the random place without having the risk of gut-bombing food sickness that will ruin your vacation? 
@@ -76,12 +82,6 @@ From Yelp, the well-know review webiste, basic information of each restaurant in
 <br>
 *Format: .CSV*
 
-
-# Datastory
-
-Website: https://holykhala.github.io/
-
-Please use Safari for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
 
 # Contribution 
 Wan-Tzu: Writing up the data story, plotting graphs for data analysis;\

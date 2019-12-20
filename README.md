@@ -1,6 +1,6 @@
 # Insights from Chicago Food Inspections
 
-Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
+Team Members: Peilin Kang, Wan-Tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract
 
@@ -30,7 +30,7 @@ At the end of the project, we hope that we can enlighten you with some useful su
 
 The main datasets used in the project are `Chicago Food Inspection`, `Chicago Crime Records` and `Life Expectancy in Chicago` and data collected from Yelp.com.
 
-**Chicago Food Inspection**
+**1. Chicago Food Inspection**
 <br>
 Source: *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
@@ -42,7 +42,7 @@ This dataset contains information about each inspection, such as inspection date
 *Format: .CSV*
 
 
-**Chicago Crime Records**
+**2. Chicago Crime Records**
 <br>
 Source: *https://data.cityofchicago.org/Public-Safety/Crimes-2019/w98m-zvie*
 <br>
@@ -54,7 +54,7 @@ Here we aim to find possible relationship between the food inspection results in
 *Format: .CSV*
 
 
-**Life Expectancy in Chicago**
+**3. Life Expectancy in Chicago**
 <br>
 Source: *https://www.chicagohealthatlas.org/indicators/life-expectancy*
 <br>
@@ -66,7 +66,7 @@ We aim to deduce from this dataset the quality of each region and attempt to cor
 *Format: .xlsx*
 
 
-**Chicago Restaurant Information on Yelp.com**
+**4. Chicago Restaurant Information on Yelp.com**
 <br>
 Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
 <br>
@@ -84,7 +84,7 @@ Website: https://holykhala.github.io/
 Please use Safari for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
 
 # Contribution 
-Wan-tzu: Writing up the data story, plotting graphs for data analysis;\
+Wan-Tzu: Writing up the data story, plotting graphs for data analysis;\
 Peilin: Data cleaning, preliminary data analysis;\
 Futong: Anlysing plotted graphs, exploratory data analysis;\
 Zhenyu: Data collection, website of data stroy construction.

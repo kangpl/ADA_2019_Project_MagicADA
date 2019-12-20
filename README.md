@@ -6,7 +6,7 @@ Team Members: Peilin Kang, Wan-Tzu Huang, Futong Liu, Zhenyu Zhu
 
 Website: https://holykhala.github.io/
 
-Please use Safari for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
+Please use **Safari**!!! for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
 
 # Abstract
 

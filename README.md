@@ -6,45 +6,33 @@ Team Members: Peilin Kang, Wan-tzu Huang, Futong Liu, Zhenyu Zhu
 
 # Abstract
 
-Food hygiene has been a buzz word of the public and the society. How clean are the resaurants you are eating and what are the possible factors that are associated with food hygiene? 
+Do you live in Chicago currently? Have you ever wondered whether the place you dine out with a friend on Friday night is really clean and conform the hygienic standards? Or are you planning a visit to Chicago this coming holiday and wonder if it is really safe to try out the local cuisine at the random place without having the risk of gut-bombing food sickness that will ruin your vacation? 
 
-This project aims to explore the possible factors that affect the cleaniness of a food establishment in Chicago, IL based on the data collected from Chicago Department of Public Health. We would like to find insights between food establishment cleaniness and time, location, risk level category and facility type. Furthermore, we analyse the violation comment of the inspector to find the relationship between the underlying banes and other factors (inspection type, facility type). Finally, we use restaurant rating, price and etc. collected from Yelp.com to get wider perspectives for analysing cleaniness.
+This project aims to explore the possible factors that affect the cleaniness of a food establishment in Chicago, IL based on the data collected from Chicago Department of Public Health. We would like to find insights between food establishment cleaniness and time, location and facility type. Futhermore, we scrutinize how life expectacny and crime of each community relate to food inspectioni results. Finally, we use restaurant price, cuisine type, etc. collected from Yelp.com to get a wider perspective for analysing cleaniness.
 
-The main datasets used in the project are `Chicago Food Inspection`, `Chicago Restaurant Information in Yelp` and `Community Qulaity of Zip-Based Region`.
+At the end of the project, we hope that we can enlighten you with some useful suggestions on how to safely dine out in Chicago and more importantly some ideas on WHERE to eat, WHEN to eat and WHAT to eat in Chicago.
 
 
 # Research questions
 
-### A. Inspection-Related Questions:
-1. Time: Is there a seasonal pattern for inspection results of food establishments in Chicago? How about a a yearly pattern? What tendency does the inspection result of each region exhibit during the recorded nine years?
-2. Region: Is there a relationship between the cleaniness of food establishments and the quality of the zip-based region? What is the distribution of cleaniness w.r.t. zips?
-3. Risk Level: How does the risk level of a food establishment influence its cleaniness?
-4. Facility Type: Which facility type is the cleaniest? What is the ranking of facility types according to cleaniness?
+### A. When?
+1. Is there a seasonal pattern for inspection results of food establishments in Chicago? 
+2. How about a a yearly pattern for inspection results? What tendency does the inspection result of each region exhibit during the recorded nine years?
 
-### B. Violation-Related Questions:
-5. Inspection Type: What are the most frequent violations associated with a specific inspection type? How can we classify inspection types according to it?
-6. Facility Type: What are the most frequent violations associated with a specific facility type? How can we classify the facility types? 
-7. Regulation Rules: What are the regulation rules that have the highest occurence percentage and recurrence percentage? What are the high frequency key words associated with a regulation rule? How does its word cloud look like?
+### B. Where?
+3. What is the distribution of inspection results over each community of Chicago? Is there a relationship between the cleaniness of food establishments and the quality of life of each community?
+4. Which facility type is the cleaniest? What is the ranking of facility types according to cleaniness?
 
-### C. Combine with Yelp:
-8. Is there a clear correlation between the cleaniness of a restaurant with its average rating, cuisine type, average price and etc.? If yes, to what extent does it affect the cleaniness?
+### C. What?
+5. What cuisine type is the most hygienic? Is there a clear relationship between the cleaniness of a restaurant's cuisine type?
+6. What price does a hygienic meal cost? Does the price of a restaurant influence its hygiene condition?
 
 
 # Dataset
 
-The primary datasets are `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection`. We also combine data from `Community Qulaity of Zip-Based Region`.
+The main datasets used in the project are `Chicago Food Inspection`, `Chicago Crime Records` and `Life Expectancy in Chicago` and data collected from Yelp.com.
 
-**Chicago Restaurant Information in Yelp**
-<br>
-Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
-<br>
-From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `yelp.csv`, as in the repsitory. In total, there are 7675 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
-
-*Data size: 1.2MB*
-<br>
-*Format: .CSV*
-
-**Chicago Food Inspections**
+**Chicago Food Inspection**
 <br>
 Source: *https://www.kaggle.com/chicago/chicago-food-inspections*
 <br>
@@ -55,39 +43,50 @@ This dataset contains information about each inspection, such as inspection date
 <br>
 *Format: .CSV*
 
-**Community Qulaity of Zip-Based Region**
-<br>
-Source: *https://www.bestplaces.net/find/zip.aspx?st=IL&city=1714000*
-<br>
-56 zip codes
-This small dataset contains information about the 56 zip-based region in Chicago. For each zip-based region, it includes the cost of living in the region, population, crime rate and etc. 
-We aim to deduce from this dataset the quality of each region and attempt to correlate this region-based pattern with the region-based pattern of the quality of restaurants. 
 
-*Data size: 56 pieces of information*
+**Chicago Crime Records**
+<br>
+Source: *https://data.cityofchicago.org/Public-Safety/Crimes-2019/w98m-zvie*
+<br>
+This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system.\
+Here we aim to find possible relationship between the food inspection results in a specific area and the number of crimes in that area. Therefore, we only care about the time and location of a specific crime record, and hence we only use a subset of the columns in Chicago Crime Dataset: ID(its primary key), Year, Block, Community Area, Latitude, Longitude.
+
+*Data size: 1.66G*
 <br>
 *Format: .CSV*
 
 
-# A list of internal milestones up until project milestone 2   
-We set up internal milestones for each week, and group members will meet every Sunday night to update and split the work.
+**Life Expectancy in Chicago**
+<br>
+Source: *https://www.chicagohealthatlas.org/indicators/life-expectancy*
+<br>
+This dataset contains information about the life expectancy in each community in Chicago, as well as aggregated information for each ethinicity group and the whole city of Chicago.
+We aim to deduce from this dataset the quality of each region and attempt to correlate this region-based pattern with the region-based pattern of food inspection results of restaurants. 
 
-**03.11.2017**:  
-- Clean both the `Chicago Restaurant Information in Yelp` and `Chicago Food Inspection` datasets.  
-- Find the best way to join the `Chicago Food Inspection` dataset with `Chicago Restaurant Information in Yelp` dataset.  
+*Data size: 165B*
+<br>
+*Format: .xlsx*
 
-**10.11.2017**:  
-- Analyse the newly merged dataset from different aspects to get preliminary findings, mostly based on the research questions listed above.  
-- Explore ways to visualize the findings. 
 
-**17.11.2017**:  
-- Discuss the findings between teammates and explore the dataset further.  
-- Build a prediction model for a new restaurant given some basic information and outputs its likely business situation.
+**Chicago Restaurant Information on Yelp.com**
+<br>
+Source: *https://www.yelp.com/search?cflt=restaurants&find_loc=Chicago%2C%20IL*
+<br>
+From Yelp, the well-know review webiste, basic information of each restaurant in Chicago has been scraped and saved to the file `yelp.csv`, as in the repsitory. In total, there are 7782 restaurants captured in Chicago area, which is almost the total number of restaurants that can possibly be found in Chicago. This dataset includes the restaurant name, address in Chicago, cuisine category, average rating, how many people have rated this restaurant and average price of a meal. We woud like to use the average rating to determine the success of a restaurant and figure out the influence of each factor on the rating. 
 
-**24.11.2017**: 
-- Have a nice visualisation and first results in notebook.  
-- Discuss more detailed plan for future work based on the insights we get for the dataset.  
+*Data size: 1.2MB*
+<br>
+*Format: .CSV*
 
-# Questions for TAa
-- The number of Chicago restuarants we scraped from yelp is around 7600, is the size of the dataset large enough for us to make a project? 
-- We will use the `Chicago Restaurant Information in Yelp` as the main dataset(scraped by ourself) and `Chicago Food Inspection` as an auxiliary dataset(provided dataset), is it ok for us to arrange datasets like this? 
-- When we try to merge the `Chicago Food Inspection` dataset into `Chicago Restaurant Information in Yelp` dataset using restuarant name and part of the address, we found though sometimes they are the same restaurants, but the name and address will have silghtly difference in two datasets (for example, subway and subway restuarant, Av and Avenue). How can we deal with this problem? 
+
+# Datastory
+
+Website: https://holykhala.github.io/
+
+Please use Safari for optimal user experience. If you are a chrome user, please do refresh your page when anything abnormal happens.
+
+# Contribution 
+Wan-tzu: Writing up the data story, plotting graphs for data analysis; 
+Peilin: Data cleaning, preliminary data analysis; 
+Futong: Anlysing plotted graphs, exploratory data analysis;
+Zhenyu: Data collection, website of data stroy construction.
